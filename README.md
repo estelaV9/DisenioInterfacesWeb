@@ -9,6 +9,11 @@ Repositorio para el módulo de Diseño de interfaces web
   
 ## [Tema 2](https://github.com/estelaV9/DisenioInterfacesWeb/tree/master/Tema2_ElementosDise%C3%B1oWeb): Elementos para el diseño web. Color, matiz y saturación
 - [Apuntes](https://github.com/estelaV9/DisenioInterfacesWeb/blob/master/Tema2_ElementosDise%C3%B1oWeb/apuntes.md) del tema
+- [Apuntes](https://github.com/estelaV9/DisenioInterfacesWeb/blob/master/Tema2_ElementosDise%C3%B1oWeb/apuntes_figma.md) de **Figma**
+    - [Ejercicio]() Wireframe de Patitas Felices en **Figma** (low-fidelity)
+    
+> [!NOTE]
+> [Imagen](https://github.com/estelaV9/DisenioInterfacesWeb/blob/master/Tema2_ElementosDise%C3%B1oWeb/img/wireframe_patitas_felices.png) de referencia para realizar el wireframe
 
 
 
