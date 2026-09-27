@@ -75,8 +75,9 @@ Para empezar a diseñar en soporte digital sin necesidad de código todavía, ``
   </tr>
 </table>
 
-[Wireframe]() final de **Patitas felices**
+[Wireframe](https://www.figma.com/design/b1ugYM6eswy5jVuc3fvNGH/PrototipadoFigma?node-id=0-1&t=wCF3b3VCBdB8G97k-1) final de **Patitas felices**:
 
+<img src="img/wireframe_low_fidelity.png" height="600"/>
 
 <br>
 
