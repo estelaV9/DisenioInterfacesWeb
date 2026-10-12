@@ -57,7 +57,9 @@ a {
 .nav-links a:hover,
 .nav-links a.active {
     color: #ff1e42;
-}/* DEJAMOS ACTIVO EL PRIMERO*/
+}
+
+/* DEJAMOS ACTIVO EL PRIMERO*/
 
 .header_contact {
     display: flex;
@@ -83,6 +85,102 @@ a {
 .mail_icon {
     width: 30px;
 }
+
+
+/******* INICIO *****/
+#inicio {
+    width: 100%;
+    /* CALCULAMOS PARA QUE OCUPE TODA LA PAGINA PRINCIPAL */
+    min-height: calc(100vh - 90px);
+    position: relative;
+    /* POSICION RELATIVA PARA SUPERPONER LOS ELEMENTOS */
+}
+
+.inicio_texto {
+    position: absolute;
+    left: 7%;
+    top: 14%;
+    z-index: 2;
+}
+
+.inicio_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75%;
+    height: 100%;
+    /* MANDAMOS AL FONDO LA IMAGEN*/
+    z-index: 1;
+}
+
+.inicio_texto h1 {
+    font-size: 65px;
+    font-family: 'patua', Arial, sans-serif;
+}
+
+.streampause {
+    font-size: 75px;
+    font-family: 'patua', Arial, sans-serif;
+    color: #fb1936;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.inicio_texto,
+.inicio_texto h1,
+.inicio_texto p,
+.streampause {
+    background: transparent;
+} /* QUITAMOS EL FONDO NEGRO DE LOS TEXTOS*/
+
+.linea_divisoria{
+    width: 150px;
+    background-color: #fb1936;
+    height: 20px;
+    border: 0; /* QUITAMOS EL BORDE*/
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: -20px;
+}
+
+.inicio_texto p{
+    font-size: 25px;
+    width: 70%;
+}
+    
+/* BOTONES INICIO*/
+.inicio_botones{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.inicio_botones p{
+    font-size: 17px;    
+}
+
+.inicio_botones a {
+    flex: 1;
+    text-decoration: none;
+}
+
+.descubrir_mas,
+.nuestros_servicios {
+    flex: 1; /* EXPANDE */
+    border: 1px solid #fb1936;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descubrir_mas{
+    background-color: #fb1936;
+}
+
 
 
 

@@ -7,41 +7,58 @@
     <title>Mi Página Web</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/png" href="assets/logo.png" />
-    <meta name="author" content="Estela de Vega Martín">
-    <meta name="description" content="Primera evaluacion Tarea 1 STREAMPAUSE">
+    <meta name="author" content="Estela de Vega Martín" />
+    <meta name="description" content="Primera evaluacion Tarea 1 STREAMPAUSE" />
   </head>
   <body>
     <!-- CABECERA -->
-    <header id="inicio">
-      <div class="header">
-        <div class="header_logo">
-          <img src="assets/logo.png" class="logo" />
-          <p class="nombre_pagina">
-            STREAM<span class="red nombre_pagina">PAUSE</span>
-          </p>
-        </div>
-
-        <ul class="nav-links">
-          <li><a href="#inicio" class="active">Inicio</a></li>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#libros">Libros</a></li>
-        </ul>
-
-        <a href="#contacto">
-          <div class="header_contact">
-            <img src="assets/icon/mail_icon.png" class="mail_icon" />
-            <p>Contacto</p>
-          </div>
-        </a>
+    <div class="header">
+      <div class="header_logo">
+        <img src="assets/logo.png" class="logo" />
+        <p class="nombre_pagina">
+          STREAM<span class="red nombre_pagina">PAUSE</span>
+        </p>
       </div>
 
-      <h1>Bienvenidos a Mi Página Web</h1>
-      <p>Esta es una página de ejemplo para el ejercicio.</p>
+      <ul class="nav-links">
+        <li><a href="#inicio" class="active">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#libros">Libros</a></li>
+      </ul>
+
+      <a href="#contacto">
+        <div class="header_contact">
+          <img src="assets/icon/mail_icon.png" class="mail_icon" />
+          <p>Contacto</p>
+        </div>
+      </a>
+    </div>
+
+    <header id="inicio">
+      <div class="inicio_texto">
+        <h1>Bienvenidos a<br /><span class="streampause">STREAMPAUSE</span></h1>
+        <hr class="linea_divisoria" />
+        <p>Esta es una página de ejemplo para el ejercicio.</p>
+
+        <div class="inicio_botones">
+          <a href="#nosotros">
+            <div class="descubrir_mas">
+              <p>Descubrir más</p>
+            </div>
+          </a>
+          <a href="#servicios">
+            <div class="nuestros_servicios">
+              <p>Nuestros servicios</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <img src="assets/header.png" class="inicio_img" />
     </header>
 
     <!-- SECCION PRINCIPAL: ACERCA DE NOSOTROS -->
-    <main id="Nosotros">
+    <main id="nosotros">
       <h2>Acerca de Nosotros</h2>
       <p>Somos una empresa dedicada a ofrecer soluciones web.</p>
     </main>
