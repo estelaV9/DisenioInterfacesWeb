@@ -1,3 +1,93 @@
+@font-face {
+    font-family: 'patua';
+    src: url('fonts/PatuaOne-Regular.ttf') format('truetype');
+}
+
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Rubik', Arial, sans-serif;
+}
+
+/********* CABECERA *******/
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nombre_pagina {
+    font-family: 'patua', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.red {
+    color: #fb1936;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #ff1e42;
+}/* DEJAMOS ACTIVO EL PRIMERO*/
+
+.header_contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 2px solid #fb1936;
+    border-radius: 25px;
+}
+
+.header_contact p {
+    margin: 0;
+    color: #fb1936;
+    font-size: 18px;
+}
+
+.header_contact:hover {
+    border: 2px solid #fff;
+}
+
+.mail_icon {
+    width: 30px;
+}
+
+
+
+
+
 .iframe-tabla {
     width: 100%;
     height: 700px;

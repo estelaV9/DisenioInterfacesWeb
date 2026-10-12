@@ -5,23 +5,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Página Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Patua+One&family=Rammetto+One&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- CABECERA -->
-    <header>
+    <header id="inicio">
+      <div class="header">
+        <div class="header_logo">
+          <img src="assets/logo.png" class="logo" />
+          <p class="nombre_pagina">
+            STREAM<span class="red nombre_pagina">PAUSE</span>
+          </p>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#libros">Libros</a></li>
+        </ul>
+
+        <a href="#contacto">
+          <div class="header_contact">
+            <img src="assets/icon/mail_icon.png" class="mail_icon" />
+            <p>Contacto</p>
+          </div>
+        </a>
+      </div>
+
       <h1>Bienvenidos a Mi Página Web</h1>
       <p>Esta es una página de ejemplo para el ejercicio.</p>
     </header>
 
     <!-- SECCION PRINCIPAL: ACERCA DE NOSOTROS -->
-    <main>
+    <main id="Nosotros">
       <h2>Acerca de Nosotros</h2>
       <p>Somos una empresa dedicada a ofrecer soluciones web.</p>
     </main>
 
     <!-- SECCION: NUESTROS SERVICIOS -->
-    <section>
+    <section id="servicios">
       <h2>Nuestros Servicios</h2>
 
       <!-- LISTA ORDENADA (ABECEDARIO) -->
@@ -35,23 +65,28 @@
       <a href="https://www.ejemplo.com" target="_blank">Ver más servicios</a>
     </section>
 
-
     <!-- E2: FORMULARIO DE REGISTRO -->
-    <iframe src="pages/formulario.html" title="formulario" class="iframe-tabla"></iframe>
+    <section id="contacto">
+      <iframe
+        src="pages/formulario.html"
+        title="formulario"
+        class="iframe-tabla"
+      ></iframe>
+    </section>
 
-
-    
     <!-- E3: TABLA DE CONTENIDO -->
-    <section>
+    <section id="libros">
       <table border="1">
         <!-- TITULO DE LA TABLA -->
-        <caption>Tabla de contenido del libro</caption>
+        <caption>
+          Tabla de contenido del libro
+        </caption>
 
         <!-- GRUPO DE COLUMNAS -->
         <colgroup>
-          <col/>
-          <col/>
-          <col/>
+          <col />
+          <col />
+          <col />
         </colgroup>
 
         <!-- ENCABEZADO: CELDA COMBINADA Y NOMBRES DE COLUMNA -->
