@@ -9,6 +9,10 @@
     font-family: 'Rubik', Arial, sans-serif;
 }
 
+body {
+    font-size: 30px;
+}
+
 /********* CABECERA *******/
 .header {
     display: flex;
@@ -131,25 +135,28 @@ a {
 .inicio_texto p,
 .streampause {
     background: transparent;
-} /* QUITAMOS EL FONDO NEGRO DE LOS TEXTOS*/
+}
 
-.linea_divisoria{
+/* QUITAMOS EL FONDO NEGRO DE LOS TEXTOS*/
+
+.linea_divisoria {
     width: 150px;
     background-color: #fb1936;
     height: 20px;
-    border: 0; /* QUITAMOS EL BORDE*/
+    border: 0;
+    /* QUITAMOS EL BORDE*/
     border-radius: 5px;
     margin-left: 0;
     margin-top: -20px;
 }
 
-.inicio_texto p{
+.inicio_texto p {
     font-size: 25px;
     width: 70%;
 }
-    
+
 /* BOTONES INICIO*/
-.inicio_botones{
+.inicio_botones {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -157,8 +164,8 @@ a {
     gap: 15px;
 }
 
-.inicio_botones p{
-    font-size: 17px;    
+.inicio_botones p {
+    font-size: 17px;
 }
 
 .inicio_botones a {
@@ -168,7 +175,8 @@ a {
 
 .descubrir_mas,
 .nuestros_servicios {
-    flex: 1; /* EXPANDE */
+    flex: 1;
+    /* EXPANDE */
     border: 1px solid #fb1936;
     text-align: center;
     border-radius: 30px;
@@ -177,13 +185,13 @@ a {
     align-items: center;
 }
 
-.descubrir_mas{
+.descubrir_mas {
     background-color: #fb1936;
 }
 
 
 /****** NOSOTROS *******/
-#nosotros{
+#nosotros {
     width: 100%;
     /* CALCULAMOS PARA QUE OCUPE TODA LA PAGINA PRINCIPAL */
     min-height: calc(100vh);
@@ -191,7 +199,7 @@ a {
     padding: 20px;
 }
 
-.contacto_img{
+.contacto_img {
     position: absolute;
     top: 20%;
     left: 0;
@@ -213,20 +221,92 @@ a {
 }
 
 .nosotros_texto p {
-    font-size: 30px;
     width: 100%;
     margin: 0;
     text-align: right;
     margin-bottom: 20px;
 }
 
-.video_yt{
+.video_yt {
     display: block;
     margin-left: auto;
     margin-right: 0;
 }
 
 
+
+/**** SERVICIOS *******/
+#servicios {
+    width: 100%;
+    /* CALCULAMOS PARA QUE OCUPE TODA LA PAGINA PRINCIPAL */
+    min-height: calc(100vh - 10px);
+    position: relative;
+    padding: 20px;
+}
+
+.servicio_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+}
+
+
+.servicios_lista {
+    padding-left: 5px;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.servicios_lista li {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.servicios_lista li::marker {
+    content: "";
+}
+
+/* OCULTAMOS LAS LETRAS ORIGINALES DE LA LISTA */
+
+.servicios_lista li::before {
+    /* MOSTRAMOS LA LETRA */
+    content: counter(list-item, lower-alpha);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #fb1936;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.servicios_lista h3 {
+    margin: 0 0 5px;
+    font-size: 26px;
+}
+
+.servicios_lista p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.servicios_enlace {
+    color: #fb1936;
+    text-decoration: underline;
+    /* SEPARA LA LINEA DEL TEXTO */
+    text-underline-offset: 7px;
+
+    position: absolute;
+    bottom: 20%;
+}
 
 
 

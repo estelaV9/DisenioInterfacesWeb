@@ -67,7 +67,25 @@
 
         <p>Somos una empresa dedicada a ofrecer soluciones web.</p>
 
-        <iframe class="video_yt" width="460" height="215" src="https://www.youtube.com/embed/ppAnpOXNvxI?si=dKPfC_cTFzDGDbwi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe
+          class="video_yt"
+          width="460"
+          height="215"
+          src="https://www.youtube.com/embed/ppAnpOXNvxI?si=dKPfC_cTFzDGDbwi"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
 
       <img src="assets/contacto.png" class="contacto_img" />
@@ -75,17 +93,45 @@
 
     <!-- SECCION: NUESTROS SERVICIOS -->
     <section id="servicios">
-      <h2>Nuestros Servicios</h2>
+      <div class="servicios_texto">
+        <div class="titles">
+          <img src="assets/logo.png" class="logo" />
+          <h2>Nuestros <span class="red">Servicios</span></h2>
+        </div>
 
-      <!-- LISTA ORDENADA (ABECEDARIO) -->
-      <ol type="a">
-        <li>Desarrollo web a medida</li>
-        <li>Diseño de interfaces</li>
-        <li>Mantenimiento y soporte</li>
-      </ol>
+        <!-- LISTA ORDENADA (ABECEDARIO) -->
+        <ol class="servicios_lista" type="a">
+          <li>
+            <div>
+              <h3>Desarrollo web</h3>
+              <p>
+                Creamos páginas web a medida, modernas y adaptadas a tus
+                necesidades.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Diseño de interfaces</h3>
+              <p>
+                Diseñamos experiencias intuitivas y atractivas para tus
+                usuarios.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Mantenimiento y soporte</h3>
+              <p>Nos encargamos de que todo funcione siempre.</p>
+            </div>
+          </li>
+        </ol>
 
-      <!-- ENLACE EXTERNO QUE SE ABRE EN UNA NUEVA PESTAÑA -->
-      <a href="https://www.ejemplo.com" target="_blank">Ver más servicios</a>
+        <!-- ENLACE EXTERNO QUE SE ABRE EN UNA NUEVA PESTAÑA -->
+        <a href="https://www.ejemplo.com" target="_blank" class="servicios_enlace">Ver más servicios  ⭜</a>
+      </div>
+
+      <img src="assets/servicios.png" class="servicio_img" />
     </section>
 
     <!-- E2: FORMULARIO DE REGISTRO -->
