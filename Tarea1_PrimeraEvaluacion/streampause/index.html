@@ -128,7 +128,12 @@
         </ol>
 
         <!-- ENLACE EXTERNO QUE SE ABRE EN UNA NUEVA PESTAÑA -->
-        <a href="https://www.ejemplo.com" target="_blank" class="servicios_enlace">Ver más servicios  ⭜</a>
+        <a
+          href="https://www.ejemplo.com"
+          target="_blank"
+          class="servicios_enlace"
+          >Ver más servicios ⭜</a
+        >
       </div>
 
       <img src="assets/servicios.png" class="servicio_img" />
@@ -230,13 +235,35 @@
     </section>
 
     <!-- PIE DE PAGINA -->
-    <footer>
-      <!-- ENLACE DE CORREO ELECTRONICO -->
-      <a href="mailto:info@miempresa.com">Enviar correo electrónico</a>
-      <!-- ENLACE DE TELEFONO -->
-      <a href="tel:+1234567890">Llamar por teléfono</a>
-      <!-- COPYRIGHT -->
-      <p>&copy; Mi Empresa. Todos los derechos reservados.</p>
+    <footer class="footer">
+      <img src="assets/footer.png" class="footer_img" />
+
+      <div class="footer_botones">
+        <!-- ENLACE DE CORREO ELECTRONICO -->
+        <a href="mailto:info@miempresa.com">
+          <div class="enviar_mail">
+            <p>Enviar correo electrónico</p>
+          </div>
+        </a>
+        <!-- ENLACE DE TELEFONO -->
+        <a href="tel:+1234567890">
+          <div class="llamar_tel">
+            <p>Llamar por teléfono</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="footer_final">
+        <div class="header_logo">
+          <img src="assets/logo.png" class="logo" />
+          <p class="nombre_pagina">
+            STREAM<span class="red nombre_pagina">PAUSE</span>
+          </p>
+        </div>
+        
+        <!-- COPYRIGHT -->
+        <p class="copyright">&copy;STREAMPAUSE. Todos los derechos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>
