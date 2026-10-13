@@ -309,19 +309,108 @@ a {
 }
 
 
+/******* PROYECTOS ********/
+
+#proyectos {
+    width: 100%;
+    min-height: calc(100vh - 10px);
+    position: relative;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+#proyectos section {
+    width: 44%;
+    border: 1px solid #fb1936;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(251, 25, 54, 0.35);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/***** TABLA *****/
+#proyectos table {
+    width: 100%;
+    border: 1px solid #fb1936;
+    font-size: 18px;
+}
+
+#proyectos caption {
+    caption-side: top;
+}
+
+#proyectos caption,
+.pagina_form h1 {
+    text-align: left;
+    font-family: 'patua', Arial, sans-serif;
+    font-size: 32px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    text-decoration-color: #fb1936;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+}
+
+#proyectos th,
+#proyectos td {
+    border: 1px solid #fb1936;
+    padding: 12px 15px;
+}
+
+#proyectos tbody tr:hover td {
+    background: #1a0509;
+}
+
+#proyectos tfoot td,
+#proyectos thead th {
+    background: #3a0810;
+    font-weight: bold;
+}
 
 .iframe-tabla {
     width: 100%;
     height: 700px;
     border: none;
-    overflow: hidden;
     display: block;
 }
 
+.pagina_form {
+    font-size: 18px;
+}
+
+/* BOTON */
+.pagina_form button {
+    display: block;
+    margin: 10px auto 0;
+    background-color: #fb1936;
+    border: 0;
+    border-radius: 30px;
+    padding: 12px 50px;
+    font-size: 16px;
+}
+
+.pagina_form input[type="text"],
+.pagina_form input[type="email"],
+.pagina_form input[type="tel"],
+.pagina_form input[type="date"],
+.pagina_form input[type="password"],
+.pagina_form select,
+.pagina_form textarea {
+    width: 100%;
+    border: 1px solid #fb1936;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 14px;
+}
 
 
 /***** FOOTER ****/
-.footer {
+#footer {
     position: relative;
     margin-top: 20px;
 }
@@ -332,8 +421,10 @@ a {
     height: auto;
 }
 
-.footer div,
-.footer p, .footer a, .footer img {
+#footer div,
+#footer p,
+#footer a,
+#footer img {
     background: transparent;
 }
 
@@ -362,7 +453,7 @@ a {
     align-items: center;
 }
 
-.footer .enviar_mail {
+#footer .enviar_mail {
     background-color: #fb1936;
 }
 
@@ -378,10 +469,10 @@ a {
     align-items: center;
 }
 
-.copyright{
+.copyright {
     font-size: 20px;
 }
 
-.header_logo{
+.header_logo {
     margin-left: 40px;
 }

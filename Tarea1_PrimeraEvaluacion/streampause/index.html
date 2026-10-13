@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- E1: ESTRUCTURA BASICA Y ENLACES -->
 <html lang="es">
   <head>
@@ -14,7 +14,7 @@
     <!-- CABECERA -->
     <div class="header">
       <div class="header_logo">
-        <img src="assets/logo.png" class="logo" />
+        <img src="assets/logo.png" class="logo" alt="Logo de STREAMPAUSE"/>
         <p class="nombre_pagina">
           STREAM<span class="red nombre_pagina">PAUSE</span>
         </p>
@@ -24,12 +24,12 @@
         <li><a href="#inicio" class="active">Inicio</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#libros">Libros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
       </ul>
 
-      <a href="#contacto">
+      <a href="#footer">
         <div class="header_contact">
-          <img src="assets/icon/mail_icon.png" class="mail_icon" />
+          <img src="assets/icon/mail_icon.png" class="mail_icon" alt="Icono email"/>
           <p>Contacto</p>
         </div>
       </a>
@@ -54,14 +54,14 @@
           </a>
         </div>
       </div>
-      <img src="assets/header.png" class="inicio_img" />
+      <img src="assets/header.png" class="inicio_img" alt="Imagen inicial con un gato estando de relax" />
     </header>
 
     <!-- SECCION PRINCIPAL: ACERCA DE NOSOTROS -->
     <main id="nosotros">
       <div class="nosotros_texto">
         <div class="titles">
-          <img src="assets/logo.png" class="logo" />
+          <img src="assets/logo.png" class="logo" alt="Logo de STREAMPAUSE"/>
           <h2>Acerca de <span class="red">Nosotros</span></h2>
         </div>
 
@@ -88,14 +88,14 @@
         ></iframe>
       </div>
 
-      <img src="assets/contacto.png" class="contacto_img" />
+      <img src="assets/contacto.png" class="contacto_img" alt="Gato negro contacto"/>
     </main>
 
     <!-- SECCION: NUESTROS SERVICIOS -->
     <section id="servicios">
       <div class="servicios_texto">
         <div class="titles">
-          <img src="assets/logo.png" class="logo" />
+          <img src="assets/logo.png" class="logo" alt="Logo de STREAMPAUSE"/>
           <h2>Nuestros <span class="red">Servicios</span></h2>
         </div>
 
@@ -136,107 +136,115 @@
         >
       </div>
 
-      <img src="assets/servicios.png" class="servicio_img" />
+      <img src="assets/servicios.png" class="servicio_img" alt="Imagen ilustrativa de un setup para el apartado de servicios"/>
     </section>
 
-    <!-- E2: FORMULARIO DE REGISTRO -->
-    <section id="contacto">
-      <iframe
-        src="pages/formulario.html"
-        title="formulario"
-        class="iframe-tabla"
-      ></iframe>
-    </section>
+    <div id="proyectos">
+      <div class="titles">
+        <img src="assets/logo.png" class="logo" alt="Logo de STREAMPAUSE"/>
+        <h2><span class="red">Proyectos</span> adicionales</h2>
+      </div>
+      <div class="flex">
+        <!-- E2: FORMULARIO DE REGISTRO -->
+        <section id="contacto">
+          <iframe
+            src="pages/formulario.html"
+            title="formulario"
+            class="iframe-tabla"
+          ></iframe>
+        </section>
 
-    <!-- E3: TABLA DE CONTENIDO -->
-    <section id="libros">
-      <table border="1">
-        <!-- TITULO DE LA TABLA -->
-        <caption>
-          Tabla de contenido del libro
-        </caption>
+        <!-- E3: TABLA DE CONTENIDO -->
+        <section>
+          <table border="1">
+            <!-- TITULO DE LA TABLA -->
+            <caption>
+              Tabla de contenido del libro
+            </caption>
 
-        <!-- GRUPO DE COLUMNAS -->
-        <colgroup>
-          <col />
-          <col />
-          <col />
-        </colgroup>
+            <!-- GRUPO DE COLUMNAS -->
+            <colgroup>
+              <col />
+              <col />
+              <col />
+            </colgroup>
 
-        <!-- ENCABEZADO: CELDA COMBINADA Y NOMBRES DE COLUMNA -->
-        <thead>
-          <tr>
-            <th colspan="3">Contenido del Libro</th>
-          </tr>
-          <tr>
-            <th>Capítulo</th>
-            <th>Título del Capítulo</th>
-            <th>Páginas</th>
-          </tr>
-        </thead>
+            <!-- ENCABEZADO: CELDA COMBINADA Y NOMBRES DE COLUMNA -->
+            <thead>
+              <tr>
+                <th colspan="3">Contenido del Libro</th>
+              </tr>
+              <tr>
+                <th>Capítulo</th>
+                <th>Título del Capítulo</th>
+                <th>Páginas</th>
+              </tr>
+            </thead>
 
-        <!-- CUERPO: CADA CAPITULO OCUPA VARIAS FILAS (ROWSPAN) -->
-        <tbody>
-          <tr>
-            <td rowspan="2">1</td>
-            <td>Introducción</td>
-            <td>1-10</td>
-          </tr>
-          <tr>
-            <td>Cómo usar este libro</td>
-            <td>11-15</td>
-          </tr>
+            <!-- CUERPO: CADA CAPITULO OCUPA VARIAS FILAS (ROWSPAN) -->
+            <tbody>
+              <tr>
+                <td rowspan="2">1</td>
+                <td>Introducción</td>
+                <td>1-10</td>
+              </tr>
+              <tr>
+                <td>Cómo usar este libro</td>
+                <td>11-15</td>
+              </tr>
 
-          <tr>
-            <td rowspan="2">2</td>
-            <td>Fundamentos de HTML</td>
-            <td>16-30</td>
-          </tr>
-          <tr>
-            <td>Etiquetas y atributos</td>
-            <td>31-45</td>
-          </tr>
+              <tr>
+                <td rowspan="2">2</td>
+                <td>Fundamentos de HTML</td>
+                <td>16-30</td>
+              </tr>
+              <tr>
+                <td>Etiquetas y atributos</td>
+                <td>31-45</td>
+              </tr>
 
-          <tr>
-            <td rowspan="2">3</td>
-            <td>Formularios y tablas</td>
-            <td>46-60</td>
-          </tr>
-          <tr>
-            <td>Accesibilidad</td>
-            <td>61-70</td>
-          </tr>
+              <tr>
+                <td rowspan="2">3</td>
+                <td>Formularios y tablas</td>
+                <td>46-60</td>
+              </tr>
+              <tr>
+                <td>Accesibilidad</td>
+                <td>61-70</td>
+              </tr>
 
-          <tr>
-            <td>4</td>
-            <td>Contenido multimedia</td>
-            <td>71-85</td>
-          </tr>
+              <tr>
+                <td>4</td>
+                <td>Contenido multimedia</td>
+                <td>71-85</td>
+              </tr>
 
-          <tr>
-            <td rowspan="2">5</td>
-            <td>Introducción a CSS</td>
-            <td>86-100</td>
-          </tr>
-          <tr>
-            <td>Diseño adaptable</td>
-            <td>101-120</td>
-          </tr>
-        </tbody>
+              <tr>
+                <td rowspan="2">5</td>
+                <td>Introducción a CSS</td>
+                <td>86-100</td>
+              </tr>
+              <tr>
+                <td>Diseño adaptable</td>
+                <td>101-120</td>
+              </tr>
+            </tbody>
 
-        <!-- PIE DE TABLA: TOTAL DE PAGINAS -->
-        <tfoot>
-          <tr>
-            <td colspan="2">Total de páginas</td>
-            <td>120</td>
-          </tr>
-        </tfoot>
-      </table>
-    </section>
+            <!-- PIE DE TABLA: TOTAL DE PAGINAS -->
+            <tfoot>
+              <tr>
+                <td colspan="2">Total de páginas</td>
+                <td>120</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </div>
+    </div>
 
     <!-- PIE DE PAGINA -->
-    <footer class="footer">
-      <img src="assets/footer.png" class="footer_img" />
+    <footer id="footer">
+      <img src="assets/footer.png" class="footer_img" alt="Imagen ilustrativa para el pie de pagina"/>
 
       <div class="footer_botones">
         <!-- ENLACE DE CORREO ELECTRONICO -->
@@ -255,14 +263,16 @@
 
       <div class="footer_final">
         <div class="header_logo">
-          <img src="assets/logo.png" class="logo" />
+          <img src="assets/logo.png" class="logo" alt="Logo de STREAMPAUSE"/>
           <p class="nombre_pagina">
             STREAM<span class="red nombre_pagina">PAUSE</span>
           </p>
         </div>
-        
+
         <!-- COPYRIGHT -->
-        <p class="copyright">&copy;STREAMPAUSE. Todos los derechos reservados.</p>
+        <p class="copyright">
+          &copy;STREAMPAUSE. Todos los derechos reservados.
+        </p>
       </div>
     </footer>
   </body>
