@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contenido incrustado</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <meta name="author" content="Estela de Vega Martín" />
+    <meta name="description" content="Contenido incrustado STREAMPAUSE" />
+  </head>
+  <body class="pagina_img">
+    <h1>Contenido incrustado y marcadores</h1>
+
+    <ul>
+      <li>
+        <a href="#imagen">Ir a la <span class="red">imagen</span></a>
+      </li>
+      <li>
+        <a href="#video">Ir al <span class="red">video</span></a>
+      </li>
+    </ul>
+
+    <div class="flex">
+      <div>
+        <h2 id="imagen">Imagen</h2>
+        <img
+          src="../assets/cat_img.png"
+          alt="Gato programando"
+          width="500"
+          height="300"
+        />
+      </div>
+      
+      <div>
+        <h2 id="video">Video de YouTube</h2>
+        <iframe
+          class="video_yt"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ppAnpOXNvxI?si=dKPfC_cTFzDGDbwi"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
