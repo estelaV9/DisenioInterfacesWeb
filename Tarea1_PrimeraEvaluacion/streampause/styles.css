@@ -334,17 +334,17 @@ a {
 }
 
 /***** TABLA *****/
-#proyectos table {
+.pagina_table table {
     width: 100%;
     border: 1px solid #fb1936;
     font-size: 18px;
 }
 
-#proyectos caption {
+.pagina_table caption {
     caption-side: top;
 }
 
-#proyectos caption,
+.pagina_table caption,
 .pagina_form h1 {
     text-align: left;
     font-family: 'patua', Arial, sans-serif;
@@ -356,18 +356,18 @@ a {
     text-underline-offset: 10px;
 }
 
-#proyectos th,
-#proyectos td {
+.pagina_table th,
+.pagina_table td {
     border: 1px solid #fb1936;
     padding: 12px 15px;
 }
 
-#proyectos tbody tr:hover td {
+.pagina_table tbody tr:hover td {
     background: #1a0509;
 }
 
-#proyectos tfoot td,
-#proyectos thead th {
+.pagina_table tfoot td,
+.pagina_table thead th {
     background: #3a0810;
     font-weight: bold;
 }

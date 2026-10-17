@@ -1,0 +1,97 @@
+<!doctype html>
+<!-- E3: TABLA DE CONTENIDO -->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla de Contenido</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <meta name="author" content="Estela de Vega Martín" />
+    <meta name="description" content="Tabla de Contenido STREAMPAUSE" />
+  </head>
+  <body class="pagina_table">
+    <table border="1">
+      <!-- TITULO DE LA TABLA -->
+      <caption>
+        Tabla de contenido del libro
+      </caption>
+
+      <!-- GRUPO DE COLUMNAS -->
+      <colgroup>
+        <col />
+        <col />
+        <col />
+      </colgroup>
+
+      <!-- ENCABEZADO: CELDA COMBINADA Y NOMBRES DE COLUMNA -->
+      <thead>
+        <tr>
+          <th colspan="3">Contenido del Libro</th>
+        </tr>
+        <tr>
+          <th>Capítulo</th>
+          <th>Título del Capítulo</th>
+          <th>Páginas</th>
+        </tr>
+      </thead>
+
+      <!-- CUERPO: CADA CAPITULO OCUPA VARIAS FILAS (ROWSPAN) -->
+      <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>Introducción</td>
+          <td>1-10</td>
+        </tr>
+        <tr>
+          <td>Cómo usar este libro</td>
+          <td>11-15</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">2</td>
+          <td>Fundamentos de HTML</td>
+          <td>16-30</td>
+        </tr>
+        <tr>
+          <td>Etiquetas y atributos</td>
+          <td>31-45</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">3</td>
+          <td>Formularios y tablas</td>
+          <td>46-60</td>
+        </tr>
+        <tr>
+          <td>Accesibilidad</td>
+          <td>61-70</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Contenido multimedia</td>
+          <td>71-85</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">5</td>
+          <td>Introducción a CSS</td>
+          <td>86-100</td>
+        </tr>
+        <tr>
+          <td>Diseño adaptable</td>
+          <td>101-120</td>
+        </tr>
+      </tbody>
+
+      <!-- PIE DE TABLA: TOTAL DE PAGINAS -->
+      <tfoot>
+        <tr>
+          <td colspan="2">Total de páginas</td>
+          <td>120</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
