@@ -194,7 +194,7 @@ a {
 #nosotros {
     width: 100%;
     /* CALCULAMOS PARA QUE OCUPE TODA LA PAGINA PRINCIPAL */
-    min-height: calc(100vh);
+    min-height: calc(100vh - 130px);
     position: relative;
     padding: 20px;
 }
@@ -488,6 +488,14 @@ a {
 .header_iframe {
     width: 100%;
     height: 65px;
+    border: none;
+    display: block;
+    overflow: hidden;
+}
+
+.proyectos_iframe{
+    width: 100%;
+    height: 1500px;
     border: none;
     display: block;
     overflow: hidden;
